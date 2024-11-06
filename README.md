@@ -68,6 +68,12 @@ Getting Started
 4.	Train Models and Build Dashboard: Follow the project structure to train models and build each dashboard component.
 5.	Launch the Dashboard: Use a framework like Streamlit to deploy and interact with the dashboard.
 ________________________________________
+Sources
+- yahoo finance
+- block/blockchain explorer
+- economic, finance and bticoin related news pages
+- scikit-learn
+________________________________________
 Technologies Used
 •	Python: Data processing, modeling, and dashboard backend.
 •	Scikit-learn: For machine learning models.
