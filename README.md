@@ -39,15 +39,25 @@ o	Sentiment Analysis Display: Track sentiment from forums and news.
 ________________________________________
 10-Day Project Timeline
 Day	Task
+
 Day 1	Set up Project Environment: Set up Python environment, install necessary libraries, and gather data source APIs. Familiarize yourself with the data structure and requirements.
+
 Day 2	Data Collection for Historical Prices and Event Tracker: Fetch and clean historical Bitcoin price data from Yahoo Finance. Start gathering event data for significant Bitcoin events (e.g., halving events, ETF approvals, Federal Reserve rate changes).
+
 Day 3	Feature Engineering for Price Prediction Model: Develop time-series features such as moving averages, recent price trends, trading volumes, and other relevant indicators.
+
 Day 4	Model Training for Price Prediction: Use Scikit-learn to train a time series model for Bitcoin price prediction. Evaluate the initial performance of the model using historical data.
+
 Day 5	Wallet Activity Tracker Data Collection: Set up a data collection pipeline for tracking blockchain wallet activity and identifying large transactions using a blockchain explorer API.
+
 Day 6	Sentiment Data Collection and Preprocessing: Collect forum and news articles related to Bitcoin. Preprocess text data for sentiment analysis (e.g., tokenization, removal of stop words).
+
 Day 7	Sentiment Analysis Model Development: Implement a sentiment analysis model to classify collected text data as positive, neutral, or negative. Test and validate model accuracy.
+
 Day 8	Dashboard Development - Price Prediction and Event Tracker: Begin building the dashboard, integrating the price prediction graph and event tracker components.
+
 Day 9	Dashboard Development - Wallet Tracker and Sentiment Analysis: Add the wallet activity tracker and sentiment analysis to the dashboard. Ensure that each component is functional and visually intuitive.
+
 Day 10	Final Testing and Documentation: Test the dashboard’s performance, validate data accuracy, and ensure all components are correctly visualized. Write documentation and instructions for end-users.
 
 
