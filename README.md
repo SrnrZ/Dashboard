@@ -46,23 +46,21 @@ This project includes the following files:
 - btc_forecast_app.py - The Streamlit dashboard code that enables interactive forecast visualization.
 
 
-**Conclusion**
+**Key Learnings & Conclusion**
 
-This project successfully leverages the Prophet model to predict Bitcoin price trends, and the Streamlit dashboard provides an accessible visualization interface. The findings show that:
-
-
-- The Prophet model captures seasonality and trend components in Bitcoin prices effectively.
-- It is crucial to correctly evaluate the timing of the current market cycle to reasonably adjust logistic's upper limit, trend changepoints and seasonality.
-- While adding global liquidity as regressor to the model addresses a broader economic context, it's impact on the price forecast has been very little. Mainly due to global liquidity time series' high correlation (83%) to bitcoin price, global liquidity time series basically mirrors bitcoin's underlying price trend.
-- The project concludes with a well-tuned forecast model and a structured narrative.
-
-
-**Key Learnings and Future Work**
+This project successfully leverages the Prophet model to predict Bitcoin price trends, and the Streamlit dashboard provides an accessible visualization interface. Key findings:
 
 - Prophet Model: Not evrey model for making forecasts for time series data is suitable for highly and trending chart patterns. The prophet model seems to handle this challenge comparitvely well as it is decomposing the time series into several components (e.g. trend, seasons) that capture different aspects of the data and as a result automatically detects periodic patterns in the data. 
-- Parameter Tuning: Fine-tuning parameters in Prophet allowed for more accurate predictions by adjusting seasonality and trend sensitivities.
-- Feature Integration: Adding external regressors like global liquidity enhanced our model’s economic context but required additional handling to align forecast periods.
+- Parameter Tuning: Fine-tuning parameters in Prophet allowed for more accurate predictions by adjusting seasonality and trend sensitivities. However, it is crucial to correctly evaluate the timing of the current market cycle to reasonably adjust logistic's upper limit, trend changepoints and seasonality.
+- While adding global liquidity as regressor to the model addresses a broader economic context, it's impact on the price forecast has been very little. Mainly due to global liquidity time series' high correlation (83%) to bitcoin price, global liquidity time series basically mirrors bitcoin's underlying price trend.
+- The project concludes with a well-tuned forecast model and a structured forecast narrative.
 - User Interface: The Streamlit dashboard offers a dynamic way to explore and visualize forecasts, making the model accessible to non-technical users.
+
+
+**Future Work**
+- Adding more information to the streamlit app, putting price development into a broader adoption and social context (sentiment measurements, wallet tracking...)
+- Adding automation of real-time price updates
+- Further model adjustments and tuning
 
 
 **Prerequisites**
